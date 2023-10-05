@@ -1,0 +1,35 @@
+body {
+    background-color: #F1B4BB;
+    color: #132043;
+  }
+  
+  .navbar {
+    margin-bottom: 30px;
+  }
+  
+  .profile-picture img {
+    border-radius: 50%;
+    max-width: 100%;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li:before {
+    content: "•";
+    color: #1F4172;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .certificate-images img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  

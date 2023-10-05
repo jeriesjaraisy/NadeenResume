@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY CV</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #132043;">
+  <a class="navbar-brand" href="#">Nadeen Jaraisy</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#education" onclick="closeNavbar()">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#course-project" onclick="closeNavbar()">Course Project</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#technical-skills" onclick="closeNavbar()">Technical Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#languages" onclick="closeNavbar()">Languages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#certificates" onclick="closeNavbar()">My Certificates</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#personal-info" onclick="closeNavbar()">Personal Information</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="profile-picture">
+        <img src="./img/profile.PNG" alt="Profile Picture" class="img-fluid">
+      </div>
+    </div>
+    <div class="col-md-8">
+      <section id="education">
+        <h2>Education</h2>
+        <p>2020-Present: information systems studies 6
+          th semester, at The Max Stern
+          Yezreel Valley College (GPA 86, expected graduation – August 2023).</p>
+        <ul>
+          <li>Machine Learning and Deep Learning (85).</li>
+          <li>Database Systems (87).</li>
+          <li>Introduction to computer science (Python programming language).</li>
+          <li>Data structures and Algorithms course (91).</li>
+          <li>Object-oriented programming (Java programming language) (80).</li>
+          <li>Advanced Programming(83)</li>
+          <li>Big data</li>
+          <li>Information and cyber security management(100)</li>
+          <li>Software quality assurance(92)</li>
+          
+        </ul>
+        <p>2015-2018: High school at Salvatorian Sisters School, Full Bagrut majoring in
+          chemistry and Electronics.</p>
+      </section>
+
+      <section id="course-project">
+        <h2>Course Project</h2>
+        <ul>
+          <li>Project 1: Euro Tournament Management – a project within the course advanced
+            programming, it is an application for managing a football tournament
+            which includes matches date, scores, players, teams, etc. The project
+            was implemented using Java.</li>
+          <li>Project 2: Sports Store Management - a project within the course introduction to
+            web technology, it is a Web application for selling sports clothes the
+            site includes login, signup, and product pages. The project was
+            implemented using JavaScript, HTML, and CSS.</li>
+        </ul>
+      </section>
+
+      <section id="technical-skills">
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+
+      <section id="languages">
+        <h2>Languages</h2>
+        <h6>Programming Languages</h6>
+        <ul>
+          <li>Java</li>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>SQL</li>
+        </ul>
+        <h6>Programs</h6>
+        <ul>
+          <li>Spyder</li>
+          <li>Eclipse</li>
+          <li>Visual studio code</li>
+          <li>android studio code</li>
+          
+        </ul>
+        <h6>Databases</h6>
+        <ul>
+          <li>SQL Server Management Studio</li>
+        </ul>
+      </section>
+
+      <section id="certificates">
+        <h2>My Certificates</h2>
+        <div class="certificate-images">
+          <img src="./img/certificate1.jpg" alt="Certificate 1" class="img-fluid">
+          <img src="./img/certificate1.jpg" alt="Certificate 2" class="img-fluid">
+        </div>
+      </section>
+
+      <section id="personal-info">
+        <h2>Personal Information</h2>
+        <p>Name: Nadeen jaraisy</p>
+        <p>Email: jaraisynaden@gmail.com</p>
+        <p>Phone: <a class="-link" href="tel:050-8555045">050-8555045</a></p>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script>
+  function closeNavbar() {
+    // Close the navbar by clicking outside the toggle button
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    if (window.getComputedStyle(navbarToggler).display !== 'none') {
+      navbarToggler.click();
+    }
+  }
+</script>
+</body>
+</html>
